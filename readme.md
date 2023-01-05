@@ -83,7 +83,7 @@ weixinAuths表添加一项纪录
 
 - userlogin
 
-1. `weixinAuthor` 登录授权:查看这个微信有没有使用的权限
+### 1. `weixinAuthor` 登录授权:查看这个微信有没有使用的权限
 
 ```
 uniCloud.callFunction({
@@ -95,7 +95,7 @@ uniCloud.callFunction({
 }
 ```
 
-2. `readweixinID` 读取微信 ID:单独为某个微信读取自己的 id
+### 2. `readweixinID` 读取微信 ID:单独为某个微信读取自己的 id
 
 ```
 uniCloud.callFunction({
@@ -107,7 +107,7 @@ uniCloud.callFunction({
 }
 ```
 
-3. `touristLOGIN` 游客登录:获取游客账号的 token
+### 3. `touristLOGIN` 游客登录:获取游客账号的 token
 
 ```
 uniCloud.callFunction({
@@ -119,7 +119,7 @@ uniCloud.callFunction({
 }
 ```
 
-4. `usrloginapi` 校验账号:校验账号密码的正确性(在一个账号都没有的情况下就会自动创建)
+### 4. `usrloginapi` 校验账号:校验账号密码的正确性(在一个账号都没有的情况下就会自动创建)
 
 ```
 uniCloud.callFunction({
@@ -133,7 +133,7 @@ uniCloud.callFunction({
 }
 ```
 
-5. `addUsername` 单独创建一个账号
+### 5. `addUsername` 单独创建一个账号
 
 ```
 uniCloud.callFunction({
@@ -149,7 +149,7 @@ uniCloud.callFunction({
 
 - other
 
-6. `getUserInfo` 获取某个账号的信息
+### 6. `getUserInfo` 获取某个账号的信息
 
 ```
 uniCloud.callFunction({
@@ -162,7 +162,7 @@ uniCloud.callFunction({
 }
 ```
 
-7. `updateUserinfo` 跟新某个用户的信息
+### 7. `updateUserinfo` 跟新某个用户的信息
 
 ```
 uniCloud.callFunction({
@@ -180,8 +180,9 @@ uniCloud.callFunction({
 
 - other debtApis(债务模块)
 
-8. `updateTotalsprice` 跟新某个账号的总债务信息
-   `非必要不要再项目中使用`
+### 8. `updateTotalsprice` 跟新某个账号的总债务信息
+
+`非必要不要再项目中使用`
 
 ```
 uniCloud.callFunction({
@@ -196,7 +197,7 @@ uniCloud.callFunction({
 }
 ```
 
-9. `readTotalsprice` 查询某个账号的债务信息
+### 9. `readTotalsprice` 查询某个账号的债务信息
 
 ```
 uniCloud.callFunction({
@@ -209,7 +210,7 @@ uniCloud.callFunction({
 }
 ```
 
-10. `addSingleZhichuBill` 添加一条支出账单
+### 10. `addSingleZhichuBill` 添加一条支出账单
 
 ```
 /**
@@ -246,7 +247,7 @@ uniCloud.callFunction({
       });
 ```
 
-11. `addSingleShouruBill` 添加一条收入账单
+### 11. `addSingleShouruBill` 添加一条收入账单
 
 ```
 /**
@@ -283,7 +284,7 @@ uniCloud.callFunction({
       });
 ```
 
-12. `readYearOrMonthBills` 查询年份/月份总历史记录
+### 12. `readYearOrMonthBills` 查询年份/月份总历史记录
 
 ```
 uniCloud.callFunction({
@@ -298,7 +299,7 @@ uniCloud.callFunction({
 }
 ```
 
-13. `readHistoryMonthBills` 查询某个月的所有历史账单(单项账单历史表)
+### 13. `readHistoryMonthBills` 查询某个月的所有历史账单(单项账单历史表)
 
 ```
 uniCloud.callFunction({
@@ -313,7 +314,7 @@ uniCloud.callFunction({
 }
 ```
 
-13. `addJiekuan` 添加一条借款信息
+### 13. `addJiekuan` 添加一条借款信息
 
 ```
 uniCloud.callFunction({
@@ -329,7 +330,7 @@ uniCloud.callFunction({
 }
 ```
 
-14. `addhaikuan` 添加一条还款信息
+### 14. `addhaikuan` 添加一条还款信息
 
 ```
 uniCloud.callFunction({
@@ -346,7 +347,7 @@ uniCloud.callFunction({
 }
 ```
 
-15. `readAlljiekuans` 查询所有借款信息
+### 15. `readAlljiekuans` 查询所有借款信息
 
 ```
 uniCloud.callFunction({
@@ -359,7 +360,7 @@ uniCloud.callFunction({
 }
 ```
 
-16. `addHaikuananpai` 新增还款安排
+### 16. `addHaikuananpai` 新增还款安排
 
 ```
 uniCloud.callFunction({
