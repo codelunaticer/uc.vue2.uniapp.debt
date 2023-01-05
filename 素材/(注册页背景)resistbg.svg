@@ -1,0 +1,33 @@
+<svg width="375.000000" height="812.000000" viewBox="0 0 375 812" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<rect width="375.000000" height="812.000000" fill="#FBFBFD"/>
+	<g clip-path="url(#clip20_49)">
+		<rect x="187.500031" y="688.056030" width="49.372116" height="321.503937" transform="rotate(135 187.500031 688.056030)" fill="url(#paint_linear_20_1_0)" fill-opacity="0.1"/>
+		<rect x="187.500000" y="811.894531" width="49.372116" height="321.503937" transform="rotate(135 187.500000 811.894531)" fill="url(#paint_linear_20_2_0)" fill-opacity="0.1"/>
+		<rect x="179.219360" y="69.739319" width="49.372116" height="321.503937" transform="rotate(-45 179.219360 69.739319)" fill="url(#paint_linear_20_3_0)" fill-opacity="0.1"/>
+		<rect x="179.219360" y="-54.099121" width="49.372116" height="321.503937" transform="rotate(-45 179.219360 -54.099121)" fill="url(#paint_linear_20_4_0)" fill-opacity="0.1"/>
+	</g>
+	<defs>
+		<clipPath id="clip20_49">
+			<rect width="375.000000" height="812.000000" fill="white"/>
+		</clipPath>
+		<linearGradient id="paint_linear_20_1_0" x1="212.186096" y1="688.056030" x2="212.186096" y2="1009.559937" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#FFFFFF" stop-opacity="0.000000"/>
+			<stop offset="1.000000" stop-color="#00C889"/>
+		</linearGradient>
+		<linearGradient id="paint_linear_20_2_0" x1="212.186066" y1="811.894531" x2="212.186066" y2="1133.398438" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#FFFFFF" stop-opacity="0.000000"/>
+			<stop offset="1.000000" stop-color="#00C889"/>
+		</linearGradient>
+		<linearGradient id="paint_linear_20_3_0" x1="203.905426" y1="69.739319" x2="203.905426" y2="391.243256" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#FFFFFF" stop-opacity="0.000000"/>
+			<stop offset="1.000000" stop-color="#00C889"/>
+		</linearGradient>
+		<linearGradient id="paint_linear_20_4_0" x1="203.905426" y1="-54.099121" x2="203.905426" y2="267.404816" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#FFFFFF" stop-opacity="0.000000"/>
+			<stop offset="1.000000" stop-color="#00C889"/>
+		</linearGradient>
+	</defs>
+</svg>

@@ -1,0 +1,158 @@
+{
+  "pages": [
+    //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+    {
+      "path": "pages/login/login",
+      "style": {
+        "navigationStyle": "custom",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/resist/resist",
+      "style": {
+        "navigationStyle": "custom",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/center/center",
+      "style": {
+        "navigationStyle": "custom",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/debt/debt",
+      "style": {
+        "navigationBarTitleText": "债务",
+        "navigationBarBackgroundColor": "#FEDA46",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/task/task",
+      "style": {
+        "navigationStyle": "custom",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/mk1/index",
+      "style": {
+        "navigationBarTitleText": "mk1"
+      }
+    },
+    {
+      "path": "pages/mk2/index",
+      "style": {
+        "navigationBarTitleText": "mk2"
+      }
+    }
+  ],
+  "subPackages": [
+    {
+      // qk 个人中心
+      "root": "pagesA",
+      "pages": [
+        {
+          "path": "center/modifyData/modifyData",
+          "style": {
+            "navigationBarTitleText": "编辑资料",
+            "navigationBarBackgroundColor": "#FFF"
+          }
+        }
+      ]
+    },
+    {
+      // qk 债务
+      "root": "pagesB",
+      "pages": [
+        {
+          "path": "historybill/historybill",
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationBarTitleText": "历史账单",
+            "navigationBarBackgroundColor": "#f5f6f7"
+          }
+        },
+        {
+          "path": "pay/pay",
+          "style": {
+            "navigationBarTitleText": "又消费啦",
+            "navigationBarBackgroundColor": "#f5f6f7"
+          }
+        },
+        {
+          "path": "shouru/shouru",
+          "style": {
+            "navigationBarTitleText": "可怜的收入",
+            "navigationBarBackgroundColor": "#f5f6f7"
+          }
+        },
+        {
+          "path": "qiankuan/qiankuan",
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationBarTitleText": "败家玩耶",
+            "navigationBarBackgroundColor": "#f5f6f7"
+          }
+        },
+        {
+          "path": "qiankuan/haikuan",
+          "style": {
+            "enablePullDownRefresh": true,
+            "navigationBarTitleText": "还款列表",
+            "navigationBarBackgroundColor": "#f5f6f7"
+          }
+        }
+      ]
+    }
+  ],
+  "tabBar": {
+    "backgroundColor": "#f7f7f7",
+    "color": "#9eaaab",
+    "selectedColor": "#017f84",
+    "borderStyle": "white",
+
+    "list": [
+      {
+        "iconPath": "./static/tabbar/debt_light.png",
+        "selectedIconPath": "./static/tabbar/debt_dark.png",
+        "pagePath": "pages/debt/debt",
+        "text": "债务"
+      },
+      {
+        "pagePath": "pages/task/task",
+        "iconPath": "./static/tabbar/task_light.png",
+        "selectedIconPath": "./static/tabbar/task_dark.png",
+        "text": "任务"
+      },
+      {
+        "pagePath": "pages/mk1/index",
+        "iconPath": "./static/tabbar/unknown.png",
+        "selectedIconPath": "./static/tabbar/unknown.png",
+        "text": "模块"
+      },
+      {
+        "pagePath": "pages/mk2/index",
+        "iconPath": "./static/tabbar/unknown.png",
+        "selectedIconPath": "./static/tabbar/unknown.png",
+        "text": "模块"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "./static/tabbar/center_light.png",
+        "selectedIconPath": "./static/tabbar/center_dark.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "uniIdRouter": {}
+}
